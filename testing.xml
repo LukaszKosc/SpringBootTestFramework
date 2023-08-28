@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "testng.org/testng-1.0.dtd">
+
+<suite verbose="0" name="Default suite">
+    <test verbose="2" name="Default API test" preserve-order="false">
+        <classes>
+            <class name="net.koscielny.testframework.tests.api.ApiTest1" />
+        </classes>
+    </test>
+    <test verbose="2" name="Default UI test">
+        <classes>
+            <class name="net.koscielny.testframework.tests.ui.UiTest1" />
+        </classes>
+    </test>
+</suite>
