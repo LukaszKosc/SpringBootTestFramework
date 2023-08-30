@@ -1,4 +1,4 @@
-package net.koscielny.testframework.helpers.ui.selenium.configuration.annotations;
+package net.koscielny.testframework.configuration.ui.selenium.annotations;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Scope;

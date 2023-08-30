@@ -1,4 +1,4 @@
-package net.koscielny.testframework.helpers.ui.selenium.configuration.scope;
+package net.koscielny.testframework.configuration.ui.selenium.scope;
 
 import org.springframework.beans.factory.config.BeanFactoryPostProcessor;
 import org.springframework.context.annotation.Bean;

@@ -1,18 +1,13 @@
-package net.koscielny.testframework.base;
+package net.koscielny.testframework.base.api.rest;
 
 //import net.koscielny.testframework.configuration.SpringBootTest;
-import org.junit.runner.RunWith;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
+import net.koscielny.testframework.base.TestInterface;
 import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
 import org.testng.annotations.*;
 
 import java.lang.reflect.Method;
 
-
-@RunWith(SpringRunner.class)
-@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class ApiTest extends AbstractTestNGSpringContextTests implements TestInterface {
+public class BaseRestTest extends AbstractTestNGSpringContextTests implements TestInterface {
 
     @BeforeClass
     @Override
