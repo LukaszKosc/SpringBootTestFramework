@@ -4,7 +4,7 @@ package net.koscielny.testframework.tests.api;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import net.koscielny.testframework.base.ApiTest;
+import net.koscielny.testframework.base.api.rest.BaseRestTest;
 import net.koscielny.testframework.helpers.RestHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -20,7 +20,7 @@ import static org.hamcrest.Matchers.containsString;
 
 
 @Test
-public class ApiTest1 extends ApiTest {
+public class ApiTest1 extends BaseRestTest {
 
     @Value("${base.url}")
     private String baseUri;

@@ -1,7 +1,7 @@
-package net.koscielny.testframework.helpers.ui.selenium.configuration;
+package net.koscielny.testframework.configuration.ui.selenium;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import net.koscielny.testframework.helpers.ui.selenium.configuration.annotations.LazyConfiguration;
+import net.koscielny.testframework.configuration.ui.selenium.annotations.LazyConfiguration;
 //import net.koscielny.testframework.helpers.ui.selenium.configuration.annotations.WebdriverScopeBean;
 import org.openqa.selenium.Proxy;
 import org.openqa.selenium.WebDriver;
@@ -11,7 +11,6 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Primary;

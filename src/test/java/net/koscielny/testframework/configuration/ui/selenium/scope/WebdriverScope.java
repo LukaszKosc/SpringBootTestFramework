@@ -1,4 +1,4 @@
-package net.koscielny.testframework.helpers.ui.selenium.configuration.scope;
+package net.koscielny.testframework.configuration.ui.selenium.scope;
 
 import java.util.Objects;
 import org.openqa.selenium.remote.RemoteWebDriver;
